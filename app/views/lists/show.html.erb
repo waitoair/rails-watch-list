@@ -1,0 +1,7 @@
+<div>
+  <ul>
+    <h2>This is a List</h2>
+    <%= @list.name %>
+  </ul>
+  <%= link_to "Delete #{@link.name}", list_path(@list), method: :delete, data: { confirm: "Are you sure?" } %>
+</div>
